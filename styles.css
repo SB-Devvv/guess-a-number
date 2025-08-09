@@ -1,0 +1,175 @@
+@keyframes Anim1 {
+  0% {
+    transform: rotate(-10deg);
+    font-size:500%;
+  }
+
+  50% {
+    transform: rotate(10deg);
+    font-size:400%;
+  }
+
+  100% {
+    transform: rotate(-10deg);
+    font-size:500%;
+  }
+}
+
+
+
+@keyframes Anim2 {
+  0% {
+    transform: rotate(-5deg);
+    font-size:320%;
+  }
+
+  50% {
+    transform: rotate(5deg);
+    font-size:250%;
+  }
+
+  100% {
+    transform: rotate(-5deg);
+    font-size:320%;
+  }
+}
+
+
+
+
+
+.TitleText {
+  color: #0A1478;
+  font-family: 'Aharoni', sans-serif;
+
+  left: 25%;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  position: absolute;
+
+  animation: Anim1 2s infinite normal ease-in-out;
+}
+
+
+
+.PlayerText {
+  color: #060A50;
+  font-family: 'Aharoni', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #ccc;
+  animation: Anim2 1.5s infinite normal ease-in-out;
+  top: 30%;
+  position: absolute;
+}
+
+
+
+.TextMenu {
+  font-family: 'Press Start 2P', sand-serif;
+  font-size: 600%;
+  font-weight: bold;
+  font-smooth: never;
+
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 19%;
+  height: 40%;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 50%;
+
+  padding: 0 5px;
+
+  background-image: url("TextBoxImage.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: none;
+  text-align: center;
+
+  image-rendering: pixelated;
+}
+
+
+
+.CenterNumberText {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 500%;
+  font-weight: bold;
+
+  width: 15%;
+  height: 30%;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 35%;
+  left: 42%;
+
+  line-height: 200%;
+
+  background-image: url("TextBoxImage.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: none;
+  text-align: center;
+
+  image-rendering: pixelated;
+}
+
+
+
+.Background {
+  background-image: url("BackgroundImage.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  z-index: -1;
+
+  image-rendering: pixelated;
+}
+
+
+
+.StartButton {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 380%;
+  font-weight: bold;
+  color: #1E780A;
+
+  width: 26%;
+  height: 23%;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 70%;
+  left: 37%;
+
+  background-image: url("StartImage.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  border: none;
+  text-align: center;
+
+  image-rendering: pixelated;
+}
